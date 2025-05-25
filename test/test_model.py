@@ -1,3 +1,3 @@
 
 import pytest
-from ohlcv.model import OHLCVData
+from src.model import OHLCVData

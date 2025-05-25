@@ -1,3 +1,3 @@
 
 import pytest
-from ohlcv.warehouse import OHLCVWarehouse
+from src.warehouse import OHLCVWarehouse

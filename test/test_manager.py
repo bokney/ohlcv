@@ -1,3 +1,3 @@
 
 import pytest
-from ohlcv.manager import OHLCVManager
+from src.manager import OHLCVManager

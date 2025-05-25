@@ -1,6 +1,6 @@
 
-from ohlcv.warehouse import OHLCVWarehouse
-from ohlcv.moralis_api import MoralisAPI
+from .warehouse import OHLCVWarehouse
+from .moralis_api import MoralisAPI
 
 
 class OHLCVManager:

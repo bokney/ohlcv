@@ -1,3 +1,3 @@
 
 import pytest
-from ohlcv.moralis_api import MoralisAPI
+from src.moralis_api import MoralisAPI

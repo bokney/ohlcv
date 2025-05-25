@@ -1,7 +1,7 @@
 
 import pytest
 from datetime import timedelta
-from ohlcv.timeframe import Timeframe
+from src.timeframe import Timeframe
 
 
 class TestTimeframe:
