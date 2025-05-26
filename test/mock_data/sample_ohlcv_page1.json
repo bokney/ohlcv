@@ -1,0 +1,21 @@
+
+{
+    "cursor": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwYWdlIjoxLCJwYWlyQWRkcmVzcyI6IjIyV3JteVRqOHgyVFJWUWVuM2Z4eGkycjRSbjZKREhXb01UcHNTbW44UlVkIiwic3BhbiI6MTgwMCwidGltZXN0YW1wIjoiMTc0NTE3NTYwMCIsImlhdCI6MTc0NTE5MzQxOX0.GQpneWe95uZQJLDHW3DaMXoaUeO64IiLMDReXOnGdNU",
+    "page": 1,
+    "pairAddress": "22WrmyTj8x2TRVQen3fxxi2r4Rn6JDHWoMTpsSmn8RUd",
+    "tokenAddress": "ED5nyyWEzpPPiWimP8vYm7sD7TD3LAt3Q3gRTWHzPJBY",
+    "timeframe": "30min",
+    "currency": "usd",
+    "result": [
+        {"timestamp": "2025-04-20T23:30:00.000Z", "open": "0.028370577", "high": "0.028507529", "low": "0.028345063", "close": "0.028507529", "volume": "403.249852594", "trades": 3},
+        {"timestamp": "2025-04-20T23:00:00.000Z", "open": "0.028431664", "high": "0.028532987", "low": "0.028358901", "close": "0.028375191", "volume": "757.916706466", "trades": 18},
+        {"timestamp": "2025-04-20T22:30:00.000Z", "open": "0.028266354", "high": "0.02838594", "low": "0.028219429", "close": "0.028219429", "volume": "1350.80205749", "trades": 19},
+        {"timestamp": "2025-04-20T22:00:00.000Z", "open": "0.028470863", "high": "0.028523918", "low": "0.028247231", "close": "0.028252697", "volume": "5109.548352268", "trades": 38},
+        {"timestamp": "2025-04-20T21:30:00.000Z", "open": "0.028549041", "high": "0.028761727", "low": "0.028477932", "close": "0.028477932", "volume": "2482.167572709", "trades": 22},
+        {"timestamp": "2025-04-20T21:00:00.000Z", "open": "0.028709637", "high": "0.028828281", "low": "0.028542318", "close": "0.028542318", "volume": "2877.118121378", "trades": 32},
+        {"timestamp": "2025-04-20T20:30:00.000Z", "open": "0.029035238", "high": "0.029099537", "low": "0.028757464", "close": "0.028874839", "volume": "3783.679762709", "trades": 39},
+        {"timestamp": "2025-04-20T20:00:00.000Z", "open": "0.028605388", "high": "0.029131042", "low": "0.028515959", "close": "0.029094626", "volume": "4792.929304053", "trades": 47},
+        {"timestamp": "2025-04-20T19:30:00.000Z", "open": "0.028645676", "high": "0.028776991", "low": "0.02851715", "close": "0.028704283", "volume": "4825.816480951", "trades": 51},
+        {"timestamp": "2025-04-20T19:00:00.000Z", "open": "0.028396114", "high": "0.028695621", "low": "0.028396114", "close": "0.028651249", "volume": "3990.58798718", "trades": 30}
+    ]
+}
