@@ -2,7 +2,7 @@
 import logging
 from time import sleep
 from functools import wraps
-from typing import Callable, Type, Tuple, Union, TypeVar, ParamSpec
+from typing import Callable, TypeVar, ParamSpec
 
 P = ParamSpec("P")
 R = TypeVar("R")
@@ -31,7 +31,7 @@ def backoff(
             while current_retry < retries:
                 try:
                     return func(*args, **kwargs)
-                except ValueError as e:
+                except ValueError:
                     raise
                 except Exception as e:
                     current_retry += 1
