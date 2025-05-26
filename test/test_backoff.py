@@ -21,7 +21,7 @@ class TestBackoff:
             @backoff(retries=0)
             def bar():
                 ...
-                
+
     def test_returns_value_if_no_exception(self):
         @backoff(delay=0, retries=3)
         def always_succeeds():
