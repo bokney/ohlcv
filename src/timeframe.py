@@ -2,6 +2,7 @@
 from enum import Enum
 from datetime import timedelta
 
+
 class Timeframe(Enum):
     S1 = ("1s", 1/60)
     S10 = ("10s", 10/60)
@@ -17,11 +18,13 @@ class Timeframe(Enum):
     W1 = ("1w", 10080)
     M1 = ("1m", 43200)
 
-    def __new__(cls, label, minutes):
-        obj = object.__new__(cls)
-        obj._value_ = label
-        obj.minutes = minutes
-        return obj
+    def __init__(self, label: str, minutes: float):
+        self._label = label
+        self._minutes = minutes
+
+    @property
+    def minutes(self) -> float:
+        return self._minutes
 
     @property
     def timedelta(self) -> timedelta:
@@ -29,7 +32,7 @@ class Timeframe(Enum):
 
     @property
     def pandas_freq(self) -> str:
-        label = self.value.lower()
+        label = self._label.lower()
         if label.endswith("s"):
             return label.upper()
         if label.endswith("min"):
