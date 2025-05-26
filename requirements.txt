@@ -10,6 +10,7 @@ mypy_extensions==1.1.0
 numpy==2.2.6
 packaging==25.0
 pandas==2.2.3
+pandas-stubs==2.2.3.250308
 pluggy==1.6.0
 pycodestyle==2.13.0
 pydantic==2.11.5
@@ -22,6 +23,8 @@ python-dotenv==1.1.0
 pytz==2025.2
 requests==2.32.3
 six==1.17.0
+types-pytz==2025.2.0.20250516
+types-requests==2.32.0.20250515
 typing-inspection==0.4.1
 typing_extensions==4.13.2
 tzdata==2025.2
