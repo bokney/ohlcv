@@ -32,4 +32,4 @@ class OHLCVWarehouse:
     def load_ohlcv_data(
         self, pair: str, timeframe: Timeframe, start: datetime, end: datetime
     ) -> pd.DataFrame:
-        pass
+        return pd.DataFrame()
