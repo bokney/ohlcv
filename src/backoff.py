@@ -48,5 +48,8 @@ def backoff(
                     )
                     sleep(current_delay)
                     current_delay *= 2
+            raise RuntimeError(
+                f"{func.__name__} did not complete or raise as expected"
+            )
         return wrapper
     return decorator

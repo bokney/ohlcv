@@ -3,11 +3,12 @@ import logging
 import requests
 from decimal import Decimal
 from datetime import datetime
-from typing import List, Optional
-from src.timeframe import Timeframe
-from src.backoff import backoff
-from src.model import OHLCVData
-from src.config import Config
+from typing import Optional, List, Union, Dict
+
+from .timeframe import Timeframe
+from .backoff import backoff
+from .model import OHLCVData
+from .config import Config
 
 logger = logging.getLogger(__name__)
 
@@ -30,9 +31,9 @@ class MoralisAPI:
         limit: int = 100,
         cursor: Optional[str] = None
     ) -> List[OHLCVData]:
-        tf_str = timeframe
+        tf_str: str = str(timeframe.value)
         url = f"{self._BASE_URL}/{pair_address}/ohlcv"
-        params = {
+        params: Dict[str, Union[str, int, None]] = {
             "timeframe": tf_str,
             "fromDate": from_date.isoformat(),
             "toDate": to_date.isoformat(),

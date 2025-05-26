@@ -1,7 +1,7 @@
 
 import os
-import threading
 import logging
+import threading
 from typing import Optional
 from dotenv import load_dotenv
 
